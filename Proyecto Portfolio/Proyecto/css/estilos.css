@@ -1,0 +1,54 @@
+
+@font-face {
+    font-family:miFuente;
+    src: url('../fuente/SKOLAR.otf');
+    font-weight: 200;
+}
+
+@font-face {
+    font-family:miFuente2;
+    src: url('../fuente/FORMA.otf');
+    font-weight: 900;
+}
+
+body { 
+    font-family: miFuente;
+    font-size: 100%;
+    background-image: url(../Fondo/fondo\ dinal_Mesa\ de\ trabajo\ 1\ copy.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+h1 { 
+    font-family:miFuente2;
+    font-weight: 900;
+    font-size: 3.10em;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    text-align: right;
+    margin-right: 218px;
+    margin-top: 150px;
+}
+li{
+    display: inline-block;
+   margin-left: 150px;
+   
+}
+
+p {
+    font-family:miFuente;
+    font-weight: 200;
+}
+.piedepag{
+    font-family:miFuente;
+    font-weight: 200;
+    font-size: 1.375em;
+    text-align: right;
+    margin-right: 100px;
+    margin-top: 550px;
+    line-height: 5px;
+}
+
+@media (max-width: 768px){
+    body {font-size: 80%;}
+}
